@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{67313470-64E3-4A04-9528-5FC4097179D2}</ProjectGuid>
+    <ProjectGuid>{50104105-D89F-4839-9B55-4A3B6DB2BC00}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>blod_app_v0._001.My.MyApplication</StartupObject>
-    <RootNamespace>blod_app_v0._001</RootNamespace>
-    <AssemblyName>blod_app_v0.001</AssemblyName>
+    <StartupObject>meromfilbehandlingogdatabaser.My.MyApplication</StartupObject>
+    <RootNamespace>meromfilbehandlingogdatabaser</RootNamespace>
+    <AssemblyName>meromfilbehandlingogdatabaser</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>blod_app_v0.001.xml</DocumentationFile>
+    <DocumentationFile>meromfilbehandlingogdatabaser.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>blod_app_v0.001.xml</DocumentationFile>
+    <DocumentationFile>meromfilbehandlingogdatabaser.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,7 +73,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
